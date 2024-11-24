@@ -1,4 +1,4 @@
-# NKF
+# NKF _
 
 This is a Ruby Extension version of nkf (Network Kanji Filter).
 It converts the first argument and returns converted result. Conversion
