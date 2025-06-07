@@ -490,9 +490,9 @@ rb_nkf_guess(VALUE obj, VALUE src)
 void
 Init_nkf(void)
 {
-    #ifdef HAVE_RB_EXT_THREAD_SAFE
+#ifdef HAVE_RB_EXT_THREAD_SAFE
     rb_ext_thread_safe(true);
-    #endif
+#endif
 
     VALUE mNKF = rb_define_module("NKF");
 
